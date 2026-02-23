@@ -1,0 +1,16 @@
+// .vscode/mcp.json
+{
+  "servers": {
+    "my-addition-server": {
+      // "command": "python",
+      "command": "C:\\workspace\\PlayGrounds\\mcp\\my-mcp-server\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\workspace\\PlayGrounds\\mcp\\my-mcp-server\\server.py"
+      ],
+      "alwaysAllow": [
+        "add"
+      ],
+      "disabled": false
+    }
+  }
+}

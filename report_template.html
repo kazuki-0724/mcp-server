@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Execution Report</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; line-height: 1.6; color: #333; }
+        h1 { border-bottom: 2px solid #007acc; padding-bottom: 10px; }
+        .summary { background-color: #f8f9fa; padding: 20px; border-left: 5px solid #007acc; border-radius: 4px; margin-bottom: 20px; }
+        .status { font-weight: bold; font-size: 1.2em; color: __STATUS_COLOR__; }
+        pre { background-color: #282c34; color: #abb2bf; padding: 20px; border-radius: 6px; overflow-x: auto; }
+        code { font-family: Consolas, Monaco, 'Andale Mono', monospace; }
+    </style>
+</head>
+<body>
+    <h1>API 実行レポート</h1>
+    <div class="summary">
+        <p><strong>実行日時:</strong> __DATETIME__</p>
+        <p><strong>リクエスト URL:</strong> __METHOD__ <code>__URL__</code></p>
+        <p><strong>ステータスコード:</strong> <span class="status">__STATUS_CODE__</span></p>
+    </div>
+    
+    <h2>レスポンスデータ</h2>
+    <pre><code>__RESPONSE_DATA__</code></pre>
+</body>
+</html>
