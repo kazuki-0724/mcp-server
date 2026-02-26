@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "my-custom-mcp": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}\\build\\index.js"
+      ]
+    }
+  }
+}
